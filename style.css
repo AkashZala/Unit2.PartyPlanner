@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+body {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+#partyList {
+    display: flex;
+    flex-direction: column;
+}
+
+#partyList > div {
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+    margin-bottom: 2%;
+
+}
+
