@@ -18,12 +18,14 @@ body {
 #partyList {
     display: flex;
     flex-direction: column;
+    list-style-type: none;
+    padding-inline-start: 0;
 
 }
 
-#partyList > div {
+#partyList > li {
     border: 1px solid whitesmoke;
-    padding: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
     margin: 1rem;
 
 }
@@ -42,3 +44,6 @@ form {
     text-align: center;
 }
 
+#del {
+    float: right;
+}
