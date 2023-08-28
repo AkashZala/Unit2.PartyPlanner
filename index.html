@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,25 @@
     <script defer src="app.js"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <h1>Party Planner</h1>
-    <div id="partyList"></div>
-    
+    <div>
+        <div id="partyList"></div>
+    </div>
+    <form>
+        <h1>Add a New Event</h1>
+        <label for="name">Event Name:</label><br />
+        <input name='name' id="name" type='text' /><br />
+        <label for="date">Event Date:</label><br />
+        <input name='date' id="date" type='datetime-local' /><br />
+        <label for="place">Event Location:</label><br />
+        <input name='place' id="place" type='text' /><br />
+        <label for="desc">Event Information:</label><br />
+        <textarea name="desc" id="desc" rows="4" cols="50"></textarea>
+        <button id="submit">SUBMIT</button>
+    </form>
+
 </body>
+
 </html>

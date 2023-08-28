@@ -11,13 +11,13 @@ h2 {
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(51, 50, 55);
     color: whitesmoke;
 }
 
 #partyList {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 
 }
 
@@ -25,7 +25,20 @@ body {
     border: 1px solid whitesmoke;
     padding: 1rem;
     margin: 1rem;
-    width: calc(100% / 2 - 2rem);
 
+}
+
+form {
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+#submit {
+    margin: 2rem auto 0 auto;
+    width: 100px;
+    text-align: center;
 }
 
