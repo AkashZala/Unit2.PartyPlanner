@@ -13,13 +13,15 @@ body {
 
 #partyList {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 
 #partyList > div {
     border: 1px solid whitesmoke;
     padding: 1rem;
-    margin-bottom: 2%;
+    margin: 1rem;
+    width: calc(100% / 2 - 2rem);
 
 }
 
